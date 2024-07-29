@@ -1,5 +1,7 @@
 to-do.txt
 requests.http
+.env.development
+.env.test
 
 # compiled output
 /dist
