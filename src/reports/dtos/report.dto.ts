@@ -18,6 +18,8 @@ export class ReportDto {
   model: string;
   @Expose()
   mileage: number;
+  @Expose()
+  approved: boolean;
 
   @Transform(({ obj }) => obj.user.id) //we are creating a pointer from this "userId" to all the info from the associated user
   @Expose()
