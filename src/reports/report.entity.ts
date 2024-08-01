@@ -16,6 +16,9 @@ export class Report {
   make: string; //brand
 
   @Column()
+  model: string;
+
+  @Column()
   year: number;
 
   @Column()
